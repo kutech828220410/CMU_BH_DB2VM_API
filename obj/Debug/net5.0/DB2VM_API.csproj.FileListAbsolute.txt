@@ -1096,7 +1096,6 @@ C:\Users\Administrator\Downloads\KMUGH_DB2VM_API-master\bin\Debug\net5.0\PopupCo
 C:\Users\Administrator\Downloads\KMUGH_DB2VM_API-master\bin\Debug\net5.0\SunnyUI.dll
 C:\Users\Administrator\Downloads\KMUGH_DB2VM_API-master\bin\Debug\net5.0\CSkin.dll
 C:\Users\Administrator\Downloads\KMUGH_DB2VM_API-master\bin\Debug\net5.0\SunnyUI.Common.dll
-C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Debug\net5.0\DB2VM_API.csproj.AssemblyReference.cache
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Debug\net5.0\DB2VM_API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Debug\net5.0\DB2VM_API.AssemblyInfoInputs.cache
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Debug\net5.0\DB2VM_API.AssemblyInfo.cs
@@ -1334,3 +1333,4 @@ C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\bin\Debug\net5.0\ICShar
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\bin\Debug\net5.0\office.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\bin\Debug\net5.0\NPOI.OpenXml4Net.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\bin\Debug\net5.0\NPOI.OpenXmlFormats.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Debug\net5.0\DB2VM_API.csproj.AssemblyReference.cache

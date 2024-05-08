@@ -1,0 +1,42 @@
+---------------------------------------------------------------------------
+20240508-12:56:23 - {
+  "Data": {},
+  "Code": 0,
+  "Result": "",
+  "Value": "",
+  "TimeTaken": "",
+  "Method": "POST_OutTakeMed",
+  "Server": "",
+  "DbName": "",
+  "TableName": "",
+  "ServerType": "",
+  "ServerName": "",
+  "ServerContent": "",
+  "Port": 0,
+  "UserName": "",
+  "Password": "",
+  "RequestUrl": "",
+  "ValueAry": []
+}
+---------------------------------------------------------------------------
+---------------------------------------------------------------------------
+20240508-12:58:22 - {
+  "Data": {},
+  "Code": 0,
+  "Result": "",
+  "Value": "",
+  "TimeTaken": "",
+  "Method": "POST_OutTakeMed",
+  "Server": "",
+  "DbName": "",
+  "TableName": "",
+  "ServerType": "",
+  "ServerName": "",
+  "ServerContent": "",
+  "Port": 0,
+  "UserName": "",
+  "Password": "",
+  "RequestUrl": "",
+  "ValueAry": []
+}
+---------------------------------------------------------------------------

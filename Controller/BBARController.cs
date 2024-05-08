@@ -115,7 +115,7 @@ namespace DB2VM
         static string MySQL_userid = $"{ConfigurationManager.AppSettings["MySQL_user"]}";
         static string MySQL_password = $"{ConfigurationManager.AppSettings["MySQL_password"]}";
         static string MySQL_port = $"{ConfigurationManager.AppSettings["MySQL_port"]}";
-        static string API_SERVER = $"{ConfigurationManager.AppSettings["API_SERVER"]}";
+        static public string API_Server = "http://127.0.0.1:4433/api/serversetting";
         private SQLControl sQLControl_醫囑資料 = new SQLControl(MySQL_server, MySQL_database, "order_list", MySQL_userid, MySQL_password, (uint)MySQL_port.StringToInt32(), MySql.Data.MySqlClient.MySqlSslMode.None);
 
         [HttpGet]
@@ -142,19 +142,91 @@ namespace DB2VM
         {
             return $"{DateTime.Now.ToDateTimeString()} - OK!";
         }
-        [Route("OutTakeMed")]
+
+        [Route("OutTakeMed/{value}")]
         [HttpPost]
-        async public Task<string> POST_OutTakeMed([FromBody] POST_Order_API pOST_Order_API)
+        async public Task<string> POST_OutTakeMed([FromBody] POST_Order_API pOST_Order_API,string value)
         {
             returnData returnData = new returnData();
+            returnData.Method = "POST_OutTakeMed";
             try
-            {    
+            {
+                if(pOST_Order_API == null)
+                {
+                    returnData.Code = -200;
+                    returnData.Result = $"傳入資料錯誤";
+                    return returnData.JsonSerializationt();
+                }
+                if (pOST_Order_API.drugList == null)
+                {
+                    returnData.Code = -200;
+                    returnData.Result = $"傳入處方藥品訊息錯誤";
+                    return returnData.JsonSerializationt();
+                }
+
+                if (pOST_Order_API.drugList.Count == 0)
+                {
+                    returnData.Code = -200;
+                    returnData.Result = $"傳入處方無藥品訊息";
+                    return returnData.JsonSerializationt();
+                }
+                string 目標台名稱 = value;
+                List<ServerSettingClass> serverSettingClasses = ServerSettingClassMethod.WebApiGet($"{API_Server}");
+                serverSettingClasses = serverSettingClasses.MyFind(目標台名稱, "調劑台", "一般資料");
+                if (serverSettingClasses.Count == 0)
+                {
+                    returnData.Code = -200;
+                    returnData.Result = $"找無Server資料";
+                    return returnData.JsonSerializationt();
+                }
+              
+                ServerSettingClass serverSettingClass = serverSettingClasses[0];
+                string Server = serverSettingClass.Server;
+                string DB = serverSettingClass.DBName;
+                string UserName = serverSettingClass.User;
+                string Password = serverSettingClass.Password;
+                uint Port = (uint)serverSettingClass.Port.StringToInt32();
+
+                string OP_Type = pOST_Order_API.指令欄位_0;
                 MyTimerBasic myTimerBasic = new MyTimerBasic(50000);
-             
-                return returnData.JsonSerializationt();
+
+                List<class_OutTakeMed_data> class_OutTakeMed_Datas = new List<class_OutTakeMed_data>();
+                for (int i = 0; i < pOST_Order_API.drugList.Count; i++)
+                {
+                    class_OutTakeMed_data class_OutTakeMed_Data = new class_OutTakeMed_data();
+                    class_OutTakeMed_Data.開方時間 = pOST_Order_API.處方日時;
+                    class_OutTakeMed_Data.領藥號 = pOST_Order_API.處方領藥號;
+                    class_OutTakeMed_Data.病人姓名 = pOST_Order_API.病患姓名;
+                    class_OutTakeMed_Data.病歷號 = pOST_Order_API.病歷號;
+                    class_OutTakeMed_Data.病人姓名 = pOST_Order_API.病患姓名;
+                    class_OutTakeMed_Data.類別 = pOST_Order_API.處方類型;
+                    class_OutTakeMed_Data.電腦名稱 = pOST_Order_API.電腦號碼;
+                    class_OutTakeMed_Data.護理站 = pOST_Order_API.護理站;
+                    class_OutTakeMed_Data.操作人 = pOST_Order_API.藥師姓名;
+                    class_OutTakeMed_Data.藥品碼 = pOST_Order_API.drugList[i].藥品代碼;
+                    class_OutTakeMed_Data.交易量 = (pOST_Order_API.drugList[i].總量 * -1).ToString();
+                    class_OutTakeMed_Data.功能類型 = OP_Type;
+                    class_OutTakeMed_Data.PRI_KEY = $"{DateTime.Now.ToDateTimeString_6()},{class_OutTakeMed_Data.開方時間},{class_OutTakeMed_Data.領藥號},{class_OutTakeMed_Data.病歷號},{class_OutTakeMed_Data.藥品碼}";
+
+                    class_OutTakeMed_Datas.Add(class_OutTakeMed_Data);
+
+                }
+                string url = $"http://127.0.0.1:4433/api/OutTakeMed/{目標台名稱}";
+                string json_result = Basic.Net.WEBApiPostJson(url, class_OutTakeMed_Datas.JsonSerializationt());
+                returnData.TimeTaken = myTimerBasic.ToString();
+                returnData.Data = pOST_Order_API;
+                returnData.Result = $"成功轉換醫令共{class_OutTakeMed_Datas.Count}筆";
+                Logger.LogAddLine($"OutTakeMed");
+                Logger.Log($"OutTakeMed", $"{ returnData.JsonSerializationt(true)}");
+                Logger.LogAddLine($"OutTakeMed");
+                return json_result;
             }
             catch (Exception e)
             {
+                returnData.Code = -200;
+                returnData.Data = null;
+                returnData.Result = $"{e.Message}";
+                Logger.Log($"OutTakeMed", $"[異常] { returnData.Result}");
                 return returnData.JsonSerializationt();
             }
         }
