@@ -1,0 +1,663 @@
+2024-06-21 21:19:42.884 +08:00 [INF] Starting web host
+2024-06-21 21:19:43.773 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-21 21:19:43.776 +08:00 [INF] Hosting environment: Development
+2024-06-21 21:19:43.777 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-21 21:19:43.785 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-21 21:19:43.788 +08:00 [INF] Connection Info: ::1:52736
+2024-06-21 21:19:43.789 +08:00 [INF] Header: Accept = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-06-21 21:19:43.789 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-21 21:19:43.789 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-21 21:19:43.790 +08:00 [INF] Header: Connection = close
+2024-06-21 21:19:43.790 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:19:43.790 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-21 21:19:43.790 +08:00 [INF] Header: upgrade-insecure-requests = 1
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-fetch-site = none
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-fetch-mode = navigate
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-fetch-user = ?1
+2024-06-21 21:19:43.790 +08:00 [INF] Header: sec-fetch-dest = document
+2024-06-21 21:19:43.790 +08:00 [INF] Header: priority = u=0, i
+2024-06-21 21:19:43.800 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-21 21:19:43.821 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-21 21:19:43.846 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-21 21:19:43.854 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-21 21:19:43.861 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 12.4816ms
+2024-06-21 21:19:43.862 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-21 21:19:43.865 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 81.4891ms
+2024-06-21 21:19:43.879 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-21 21:19:43.879 +08:00 [INF] Connection Info: ::1:52736
+2024-06-21 21:19:43.879 +08:00 [INF] Header: Accept = image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-06-21 21:19:43.879 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-21 21:19:43.879 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-21 21:19:43.879 +08:00 [INF] Header: Connection = close
+2024-06-21 21:19:43.879 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:19:43.879 +08:00 [INF] Header: Referer = https://localhost:44392/dbvm/test
+2024-06-21 21:19:43.879 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-21 21:19:43.879 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-21 21:19:43.879 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-21 21:19:43.879 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-21 21:19:43.879 +08:00 [INF] Header: sec-fetch-site = same-origin
+2024-06-21 21:19:43.879 +08:00 [INF] Header: sec-fetch-mode = no-cors
+2024-06-21 21:19:43.879 +08:00 [INF] Header: sec-fetch-dest = image
+2024-06-21 21:19:43.879 +08:00 [INF] Header: priority = u=1, i
+2024-06-21 21:19:43.879 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-21 21:19:43.881 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2.0339ms
+2024-06-21 21:20:36.052 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392//dbvm/BBAR/OutTakeMed/A01 application/json 3792
+2024-06-21 21:20:36.052 +08:00 [INF] Connection Info: ::1:52808
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Accept = */*
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Connection = keep-alive
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Content-Length = 3792
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Content-Type = application/json
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:20:36.052 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-21 21:20:36.052 +08:00 [INF] Header: Postman-Token = 97542fe4-b131-48d5-b0dc-25aa37e0b2ea
+2024-06-21 21:20:36.053 +08:00 [INF] Incoming Request: POST //dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306216P1518",
+    "prescriptionTime": "2024-06-21 11:55:00",
+    "stockNo": "6P1",
+    "drugNo": "518",
+    "patientNo": "0000532963",
+    "patientName": "蔡陳灑娥",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M4626",
+    "pharmacistName": "徐郁雯(M4626)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31818330",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5129",
+    "doctorName": "許致善",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+      {
+        "drugCode": "TMETFOR8",
+        "drugName": "Metformin  500mg/Tab",
+        "drugCName": "美克糖膜衣錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "BID",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 56,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TGLIMEP3",
+        "drugName": "Glimepiride  2mg/Tab",
+        "drugCName": "瑪爾胰錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "SAME",
+        "dosageTime": "AC",
+        "route": "PO",
+        "qty": 42,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TATORVA2",
+        "drugName": "AtorvaStatin 20mg/Tab",
+        "drugCName": "立普妥 20    廠商:輝瑞",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "HS",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TASPI100",
+        "drugName": "Aspirin 100mg/Cap 伯基",
+        "drugCName": "伯基腸溶微           廠商:永信",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "CA",
+        "frequency": "QD",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "CA",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OZINC2",
+        "drugName": "Zinc Oxide Oint(氧化鋅軟膏)28.4gm/tube",
+        "drugCName": "氧化鋅軟膏      廠商:華盛頓",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "GM",
+        "frequency": "PRN",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 1,
+        "qtyUnit": "TU",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OFLURBI",
+        "drugName": "Flurbiprofen Patch 40mg/PC",
+        "drugCName": "富帝芬貼片 4片/包 廠商：得生",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "PC",
+        "frequency": "QD",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 12,
+        "qtyUnit": "PC",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      }
+    ]
+  }
+2024-06-21 21:20:36.054 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392//dbvm/BBAR/OutTakeMed/A01 application/json 3792 - 404 - - 2.4768ms
+2024-06-21 21:20:39.977 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 3792
+2024-06-21 21:20:39.977 +08:00 [INF] Connection Info: ::1:52808
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Accept = */*
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Connection = keep-alive
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Content-Length = 3792
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Content-Type = application/json
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:20:39.977 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-21 21:20:39.977 +08:00 [INF] Header: Postman-Token = 91817c63-1717-4fad-bf7c-c04b81f28b32
+2024-06-21 21:20:39.977 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306216P1518",
+    "prescriptionTime": "2024-06-21 11:55:00",
+    "stockNo": "6P1",
+    "drugNo": "518",
+    "patientNo": "0000532963",
+    "patientName": "蔡陳灑娥",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M4626",
+    "pharmacistName": "徐郁雯(M4626)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31818330",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5129",
+    "doctorName": "許致善",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+      {
+        "drugCode": "TMETFOR8",
+        "drugName": "Metformin  500mg/Tab",
+        "drugCName": "美克糖膜衣錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "BID",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 56,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TGLIMEP3",
+        "drugName": "Glimepiride  2mg/Tab",
+        "drugCName": "瑪爾胰錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "SAME",
+        "dosageTime": "AC",
+        "route": "PO",
+        "qty": 42,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TATORVA2",
+        "drugName": "AtorvaStatin 20mg/Tab",
+        "drugCName": "立普妥 20    廠商:輝瑞",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "HS",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TASPI100",
+        "drugName": "Aspirin 100mg/Cap 伯基",
+        "drugCName": "伯基腸溶微           廠商:永信",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "CA",
+        "frequency": "QD",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "CA",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OZINC2",
+        "drugName": "Zinc Oxide Oint(氧化鋅軟膏)28.4gm/tube",
+        "drugCName": "氧化鋅軟膏      廠商:華盛頓",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "GM",
+        "frequency": "PRN",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 1,
+        "qtyUnit": "TU",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OFLURBI",
+        "drugName": "Flurbiprofen Patch 40mg/PC",
+        "drugCName": "富帝芬貼片 4片/包 廠商：得生",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "PC",
+        "frequency": "QD",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 12,
+        "qtyUnit": "PC",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      }
+    ]
+  }
+2024-06-21 21:20:39.978 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-21 21:20:39.980 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-21 21:21:05.613 +08:00 [INF] Starting web host
+2024-06-21 21:21:06.283 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-21 21:21:06.284 +08:00 [INF] Hosting environment: Development
+2024-06-21 21:21:06.285 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-21 21:21:06.293 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 3792
+2024-06-21 21:21:06.293 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-21 21:21:06.296 +08:00 [INF] Connection Info: ::1:52848
+2024-06-21 21:21:06.296 +08:00 [INF] Connection Info: ::1:52853
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Accept = */*
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Accept = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Connection = close
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Connection = keep-alive
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Content-Length = 3792
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Content-Type = application/json
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:21:06.297 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:21:06.297 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-21 21:21:06.297 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-21 21:21:06.298 +08:00 [INF] Header: Postman-Token = 1e95e79a-3caf-4982-8d0f-04639a3c8db8
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-21 21:21:06.298 +08:00 [INF] Header: upgrade-insecure-requests = 1
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-fetch-site = none
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-fetch-mode = navigate
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-fetch-user = ?1
+2024-06-21 21:21:06.298 +08:00 [INF] Header: sec-fetch-dest = document
+2024-06-21 21:21:06.298 +08:00 [INF] Header: priority = u=0, i
+2024-06-21 21:21:06.306 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-21 21:21:06.306 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306216P1518",
+    "prescriptionTime": "2024-06-21 11:55:00",
+    "stockNo": "6P1",
+    "drugNo": "518",
+    "patientNo": "0000532963",
+    "patientName": "蔡陳灑娥",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M4626",
+    "pharmacistName": "徐郁雯(M4626)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31818330",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5129",
+    "doctorName": "許致善",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+      {
+        "drugCode": "TMETFOR8",
+        "drugName": "Metformin  500mg/Tab",
+        "drugCName": "美克糖膜衣錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "BID",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 56,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TGLIMEP3",
+        "drugName": "Glimepiride  2mg/Tab",
+        "drugCName": "瑪爾胰錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "SAME",
+        "dosageTime": "AC",
+        "route": "PO",
+        "qty": 42,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TATORVA2",
+        "drugName": "AtorvaStatin 20mg/Tab",
+        "drugCName": "立普妥 20    廠商:輝瑞",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "HS",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TASPI100",
+        "drugName": "Aspirin 100mg/Cap 伯基",
+        "drugCName": "伯基腸溶微           廠商:永信",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "CA",
+        "frequency": "QD",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "CA",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OZINC2",
+        "drugName": "Zinc Oxide Oint(氧化鋅軟膏)28.4gm/tube",
+        "drugCName": "氧化鋅軟膏      廠商:華盛頓",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "GM",
+        "frequency": "PRN",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 1,
+        "qtyUnit": "TU",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OFLURBI",
+        "drugName": "Flurbiprofen Patch 40mg/PC",
+        "drugCName": "富帝芬貼片 4片/包 廠商：得生",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "PC",
+        "frequency": "QD",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 12,
+        "qtyUnit": "PC",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      }
+    ]
+  }
+2024-06-21 21:21:06.333 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-21 21:21:06.333 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-21 21:21:06.380 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-21 21:21:06.380 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-21 21:21:06.408 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-21 21:21:06.429 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 42.7369ms
+2024-06-21 21:21:06.431 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-21 21:21:06.433 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 142.2611ms
+2024-06-21 21:21:06.448 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-21 21:21:06.448 +08:00 [INF] Connection Info: ::1:52848
+2024-06-21 21:21:06.448 +08:00 [INF] Header: Accept = image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-06-21 21:21:06.448 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-21 21:21:06.448 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-21 21:21:06.448 +08:00 [INF] Header: Connection = close
+2024-06-21 21:21:06.448 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:21:06.448 +08:00 [INF] Header: Referer = https://localhost:44392/dbvm/test
+2024-06-21 21:21:06.448 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-21 21:21:06.448 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-21 21:21:06.448 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-21 21:21:06.448 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-21 21:21:06.448 +08:00 [INF] Header: sec-fetch-site = same-origin
+2024-06-21 21:21:06.448 +08:00 [INF] Header: sec-fetch-mode = no-cors
+2024-06-21 21:21:06.448 +08:00 [INF] Header: sec-fetch-dest = image
+2024-06-21 21:21:06.448 +08:00 [INF] Header: priority = u=1, i
+2024-06-21 21:21:06.448 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-21 21:21:06.450 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2.3904ms
+2024-06-21 21:21:07.109 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-21 21:21:07.110 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 729.2494ms
+2024-06-21 21:21:07.110 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-21 21:21:07.111 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 3792 - 200 - text/plain;+charset=utf-8 819.9782ms
+2024-06-21 21:21:12.934 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 3792
+2024-06-21 21:21:12.934 +08:00 [INF] Connection Info: ::1:52853
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Accept = */*
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Connection = keep-alive
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Content-Length = 3792
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Content-Type = application/json
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Host = localhost:44392
+2024-06-21 21:21:12.934 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-21 21:21:12.934 +08:00 [INF] Header: Postman-Token = e932176d-9965-4400-9760-c2986a58fa74
+2024-06-21 21:21:12.935 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306216P1518",
+    "prescriptionTime": "2024-06-21 11:55:00",
+    "stockNo": "6P1",
+    "drugNo": "518",
+    "patientNo": "0000532963",
+    "patientName": "蔡陳灑娥",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M4626",
+    "pharmacistName": "徐郁雯(M4626)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31818330",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5129",
+    "doctorName": "許致善",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+      {
+        "drugCode": "TMETFOR8",
+        "drugName": "Metformin  500mg/Tab",
+        "drugCName": "美克糖膜衣錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "BID",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 56,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TGLIMEP3",
+        "drugName": "Glimepiride  2mg/Tab",
+        "drugCName": "瑪爾胰錠",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "SAME",
+        "dosageTime": "AC",
+        "route": "PO",
+        "qty": 42,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TATORVA2",
+        "drugName": "AtorvaStatin 20mg/Tab",
+        "drugCName": "立普妥 20    廠商:輝瑞",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "TB",
+        "frequency": "HS",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "TB",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "TASPI100",
+        "drugName": "Aspirin 100mg/Cap 伯基",
+        "drugCName": "伯基腸溶微           廠商:永信",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "CA",
+        "frequency": "QD",
+        "dosageTime": "PC",
+        "route": "PO",
+        "qty": 28,
+        "qtyUnit": "CA",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OZINC2",
+        "drugName": "Zinc Oxide Oint(氧化鋅軟膏)28.4gm/tube",
+        "drugCName": "氧化鋅軟膏      廠商:華盛頓",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "GM",
+        "frequency": "PRN",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 1,
+        "qtyUnit": "TU",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      },
+      {
+        "drugCode": "OFLURBI",
+        "drugName": "Flurbiprofen Patch 40mg/PC",
+        "drugCName": "富帝芬貼片 4片/包 廠商：得生",
+        "drugSpec": "",
+        "dosage": 1,
+        "dosageUnit": "PC",
+        "frequency": "QD",
+        "dosageTime": "",
+        "route": "EXT",
+        "qty": 12,
+        "qtyUnit": "PC",
+        "drugQrCode": "drugno=TMETFOR8&ddcsq=D%30621P10518-3",
+        "sendCommand1": "0",
+        "sendCommand2": "",
+        "sendCommand3": ""
+      }
+    ]
+  }
+2024-06-21 21:21:12.935 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-21 21:21:12.935 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).

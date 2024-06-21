@@ -1,0 +1,3301 @@
+2024-06-17 14:48:43.226 +08:00 [INF] Starting web host
+2024-06-17 14:48:43.911 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 14:48:43.912 +08:00 [INF] Hosting environment: Development
+2024-06-17 14:48:43.913 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 14:48:43.921 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 14:48:43.924 +08:00 [INF] Connection Info: ::1:55456
+2024-06-17 14:48:43.933 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 14:48:43.954 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 14:48:43.976 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 14:48:43.983 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 14:48:43.987 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 9.4121ms
+2024-06-17 14:48:43.988 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 14:48:43.988 +08:00 [INF] Outgoing Response: 200 OK
+2024-06-17 14:48:43.996 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 76.5899ms
+2024-06-17 14:48:44.010 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 14:48:44.010 +08:00 [INF] Connection Info: ::1:55456
+2024-06-17 14:48:44.011 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 14:48:44.011 +08:00 [INF] Outgoing Response: 404 
+2024-06-17 14:48:44.012 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2.0416ms
+2024-06-17 14:49:12.853 +08:00 [INF] Starting web host
+2024-06-17 14:49:13.462 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 14:49:13.463 +08:00 [INF] Hosting environment: Development
+2024-06-17 14:49:13.464 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 14:49:13.474 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 14:49:13.477 +08:00 [INF] Connection Info: ::1:55474
+2024-06-17 14:49:13.485 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 14:49:13.504 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 14:49:13.528 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 14:49:13.536 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 14:49:13.539 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 9.963ms
+2024-06-17 14:49:13.541 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 14:49:13.541 +08:00 [INF] Outgoing Response: 200 OK
+2024-06-17 14:49:13.547 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 74.4759ms
+2024-06-17 14:49:13.565 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 14:49:13.565 +08:00 [INF] Connection Info: ::1:55474
+2024-06-17 14:49:13.566 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 14:49:13.566 +08:00 [INF] Outgoing Response: 404 
+2024-06-17 14:49:13.568 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 3.3338ms
+2024-06-17 15:24:13.619 +08:00 [INF] Starting web host
+2024-06-17 15:24:14.214 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 15:24:14.215 +08:00 [INF] Hosting environment: Development
+2024-06-17 15:24:14.216 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 15:24:14.223 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 15:24:14.226 +08:00 [INF] Connection Info: ::1:56063
+2024-06-17 15:24:14.235 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 15:24:14.256 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 15:24:14.279 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 15:24:14.288 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 15:24:14.292 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 10.537ms
+2024-06-17 15:24:14.293 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 15:24:14.293 +08:00 [INF] Outgoing Response: 200 OK
+2024-06-17 15:24:14.299 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 77.4098ms
+2024-06-17 15:24:14.313 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 15:24:14.313 +08:00 [INF] Connection Info: ::1:56063
+2024-06-17 15:24:14.313 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 15:24:14.314 +08:00 [INF] Outgoing Response: 404 
+2024-06-17 15:24:14.316 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2.3173ms
+2024-06-17 15:24:31.297 +08:00 [INF] Starting web host
+2024-06-17 15:24:31.922 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 15:24:31.924 +08:00 [INF] Hosting environment: Development
+2024-06-17 15:24:31.924 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 15:24:31.932 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 15:24:31.937 +08:00 [INF] Connection Info: ::1:56090
+2024-06-17 15:24:35.882 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 15:24:35.901 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 15:24:35.925 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 15:24:35.933 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 15:24:35.937 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 10.5851ms
+2024-06-17 15:24:35.938 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 15:24:35.939 +08:00 [INF] Outgoing Response: 200 OK
+2024-06-17 15:24:35.947 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 4016.7652ms
+2024-06-17 15:24:35.962 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 15:24:35.963 +08:00 [INF] Connection Info: ::1:56090
+2024-06-17 15:24:38.264 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 15:24:38.264 +08:00 [INF] Outgoing Response: 404 
+2024-06-17 15:24:38.267 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2304.0319ms
+2024-06-17 15:24:50.195 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/OPD/住院台 application/json 2220
+2024-06-17 15:24:57.497 +08:00 [INF] Connection Info: ::1:56110
+2024-06-17 15:25:31.306 +08:00 [INF] Starting web host
+2024-06-17 15:25:31.911 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 15:25:31.912 +08:00 [INF] Hosting environment: Development
+2024-06-17 15:25:31.913 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 15:25:31.921 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 15:25:31.924 +08:00 [INF] Connection Info: ::1:56128
+2024-06-17 15:25:31.932 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 15:25:31.953 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 15:25:31.977 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 15:25:31.985 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 15:25:31.989 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 10.3548ms
+2024-06-17 15:25:31.990 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 15:25:31.990 +08:00 [INF] Outgoing Response: 200 䭏
+2024-06-17 15:25:31.998 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 78.6171ms
+2024-06-17 15:25:32.012 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 15:25:32.012 +08:00 [INF] Connection Info: ::1:56128
+2024-06-17 15:25:32.012 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 15:25:32.013 +08:00 [INF] Outgoing Response: 404 
+2024-06-17 15:25:32.014 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 1.5708ms
+2024-06-17 15:25:34.985 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/OPD/住院台 application/json 2220
+2024-06-17 15:25:34.986 +08:00 [INF] Connection Info: ::1:56135
+2024-06-17 16:50:52.304 +08:00 [INF] Starting web host
+2024-06-17 16:50:52.877 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 16:50:52.879 +08:00 [INF] Hosting environment: Development
+2024-06-17 16:50:52.879 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 16:50:52.887 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 16:50:52.890 +08:00 [INF] Connection Info: ::1:58029
+2024-06-17 16:50:52.891 +08:00 [INF] Header: Accept = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-06-17 16:50:52.891 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 16:50:52.891 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 16:50:52.891 +08:00 [INF] Header: Connection = close
+2024-06-17 16:50:52.891 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:50:52.891 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 16:50:52.892 +08:00 [INF] Header: upgrade-insecure-requests = 1
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-fetch-site = none
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-fetch-mode = navigate
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-fetch-user = ?1
+2024-06-17 16:50:52.892 +08:00 [INF] Header: sec-fetch-dest = document
+2024-06-17 16:50:52.892 +08:00 [INF] Header: priority = u=0, i
+2024-06-17 16:50:52.900 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 16:50:52.921 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 16:50:52.943 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 16:50:52.951 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:50:52.957 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 11.7041ms
+2024-06-17 16:50:52.958 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 16:50:52.964 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 77.9360ms
+2024-06-17 16:50:52.975 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 16:50:52.975 +08:00 [INF] Connection Info: ::1:58029
+2024-06-17 16:50:52.975 +08:00 [INF] Header: Accept = image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-06-17 16:50:52.975 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 16:50:52.975 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 16:50:52.975 +08:00 [INF] Header: Connection = close
+2024-06-17 16:50:52.975 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:50:52.975 +08:00 [INF] Header: Referer = https://localhost:44392/dbvm/test
+2024-06-17 16:50:52.975 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 16:50:52.975 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 16:50:52.975 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 16:50:52.975 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 16:50:52.975 +08:00 [INF] Header: sec-fetch-site = same-origin
+2024-06-17 16:50:52.975 +08:00 [INF] Header: sec-fetch-mode = no-cors
+2024-06-17 16:50:52.975 +08:00 [INF] Header: sec-fetch-dest = image
+2024-06-17 16:50:52.975 +08:00 [INF] Header: priority = u=1, i
+2024-06-17 16:50:52.975 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 16:50:52.977 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2.2046ms
+2024-06-17 16:51:17.613 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7279
+2024-06-17 16:51:17.613 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Content-Length = 7279
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:51:17.613 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:51:17.613 +08:00 [INF] Header: Postman-Token = 2ca97d79-feeb-489f-bb6d-60412e79da8c
+2024-06-17 16:51:17.614 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "Data": {
+        "prescriptionID": "11306176P1552",
+        "prescriptionTime": "2024-06-17 12:47:00",
+        "stockNo": "6P1",
+        "drugNo": "552",
+        "patientNo": "0000195907",
+        "patientName": "曾李不碟",
+        "visitInfo": "",
+        "nursingStation": "",
+        "bedNo": "",
+        "pharmacistCode": "M2897",
+        "pharmacistName": "許靜宜(M2897)",
+        "computerNo": "A01",
+        "prescriptionType": "",
+        "sendCommand0": "1",
+        "visitNo": "31765829",
+        "patientSex": "",
+        "patientAge": "",
+        "patientBirthday": "",
+        "departmentCode": "",
+        "departmentName": "",
+        "doctorCode": "D5998",
+        "doctorName": "葉建治",
+        "diagnosisCode": "",
+        "diagnosisName": "",
+        "drugList": [
+            {
+                "drugCode": "TSENNOS",
+                "drugName": "SennoSIDE  20mg/tab",
+                "drugCName": "便通樂 廠商:中美兄弟製藥",
+                "drugSpec": "",
+                "dosage": 2,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TRASAGI2",
+                "drugName": "Rasagiline 1mg/T",
+                "drugCName": "律莎錠  廠商:晟德",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 14,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TQUETI21",
+                "drugName": "QueTiApine 二十五mg/T",
+                "drugCName": "安保思樂錠 廠商: APOTEX",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TPRAMIP",
+                "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+                "drugCName": "樂伯克錠  廠商：裕利",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMOSAPR1",
+                "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+                "drugCName": "摩舒胃清 廠商:東生華",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID&HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 84,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMADOP3",
+                "drugName": "MadoPar 200mg/50mg/TAB",
+                "drugCName": "美道普錠        廠商:羅氏",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TEXFORG",
+                "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+                "drugCName": "易安穩(2合1)    廠商:諾華",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TDESLOR",
+                "drugName": "DESLORATADINE 5MG/TAB",
+                "drugCName": "停敏錠       廠商:美時",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "QN",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TCELECO2",
+                "drugName": "CELECOXIB 200MG/CA",
+                "drugCName": "希樂葆膠囊  廠商:輝瑞",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "CA",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "CA",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TBAMBUT",
+                "drugName": "BAMBUTEROL 10mg/Tab",
+                "drugCName": "喘平樂  廠商:信東",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            }
+        ]
+    }
+2024-06-17 16:51:17.615 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:17.616 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:51:17.943 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-06-17 16:51:17.956 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 339.8193ms
+2024-06-17 16:51:17.956 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:17.957 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7279 - 400 - application/problem+json;+charset=utf-8 344.1005ms
+2024-06-17 16:51:30.640 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7282
+2024-06-17 16:51:30.640 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Content-Length = 7282
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:51:30.640 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:51:30.640 +08:00 [INF] Header: Postman-Token = e91f1019-4e8f-4eba-a0be-bfa2bbe69c40
+2024-06-17 16:51:30.641 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "Data": {
+        "prescriptionID": "11306176P1552",
+        "prescriptionTime": "2024-06-17 12:47:00",
+        "stockNo": "6P1",
+        "drugNo": "552",
+        "patientNo": "0000195907",
+        "patientName": "曾李不碟",
+        "visitInfo": "",
+        "nursingStation": "",
+        "bedNo": "",
+        "pharmacistCode": "M2897",
+        "pharmacistName": "許靜宜(M2897)",
+        "computerNo": "A01",
+        "prescriptionType": "",
+        "sendCommand0": "1",
+        "visitNo": "31765829",
+        "patientSex": "",
+        "patientAge": "",
+        "patientBirthday": "",
+        "departmentCode": "",
+        "departmentName": "",
+        "doctorCode": "D5998",
+        "doctorName": "葉建治",
+        "diagnosisCode": "",
+        "diagnosisName": "",
+        "drugList": [
+            {
+                "drugCode": "TSENNOS",
+                "drugName": "SennoSIDE  20mg/tab",
+                "drugCName": "便通樂 廠商:中美兄弟製藥",
+                "drugSpec": "",
+                "dosage": 2,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TRASAGI2",
+                "drugName": "Rasagiline 1mg/T",
+                "drugCName": "律莎錠  廠商:晟德",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 14,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TQUETI21",
+                "drugName": "QueTiApine 二十五mg/T",
+                "drugCName": "安保思樂錠 廠商: APOTEX",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TPRAMIP",
+                "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+                "drugCName": "樂伯克錠  廠商：裕利",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMOSAPR1",
+                "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+                "drugCName": "摩舒胃清 廠商:東生華",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID&HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 84,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMADOP3",
+                "drugName": "MadoPar 200mg/50mg/TAB",
+                "drugCName": "美道普錠        廠商:羅氏",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TEXFORG",
+                "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+                "drugCName": "易安穩(2合1)    廠商:諾華",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TDESLOR",
+                "drugName": "DESLORATADINE 5MG/TAB",
+                "drugCName": "停敏錠       廠商:美時",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "QN",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TCELECO2",
+                "drugName": "CELECOXIB 200MG/CA",
+                "drugCName": "希樂葆膠囊  廠商:輝瑞",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "CA",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "CA",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TBAMBUT",
+                "drugName": "BAMBUTEROL 10mg/Tab",
+                "drugCName": "喘平樂  廠商:信東",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            }
+        ]
+    }
+}
+2024-06-17 16:51:30.641 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:30.641 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:51:30.652 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:51:30.652 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 11.3163ms
+2024-06-17 16:51:30.652 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:30.653 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7282 - 200 - text/plain;+charset=utf-8 12.6598ms
+2024-06-17 16:51:52.594 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7246
+2024-06-17 16:51:52.594 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:51:52.594 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:51:52.594 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:51:52.594 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:51:52.595 +08:00 [INF] Header: Content-Length = 7246
+2024-06-17 16:51:52.595 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:51:52.595 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:51:52.595 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:51:52.595 +08:00 [INF] Header: Postman-Token = 069b18da-236e-4df6-8ca1-e33ce739d922
+2024-06-17 16:51:52.595 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 "prescriptionID": "11306176P1552",
+        "prescriptionTime": "2024-06-17 12:47:00",
+        "stockNo": "6P1",
+        "drugNo": "552",
+        "patientNo": "0000195907",
+        "patientName": "曾李不碟",
+        "visitInfo": "",
+        "nursingStation": "",
+        "bedNo": "",
+        "pharmacistCode": "M2897",
+        "pharmacistName": "許靜宜(M2897)",
+        "computerNo": "A01",
+        "prescriptionType": "",
+        "sendCommand0": "1",
+        "visitNo": "31765829",
+        "patientSex": "",
+        "patientAge": "",
+        "patientBirthday": "",
+        "departmentCode": "",
+        "departmentName": "",
+        "doctorCode": "D5998",
+        "doctorName": "葉建治",
+        "diagnosisCode": "",
+        "diagnosisName": "",
+        "drugList": [
+            {
+                "drugCode": "TSENNOS",
+                "drugName": "SennoSIDE  20mg/tab",
+                "drugCName": "便通樂 廠商:中美兄弟製藥",
+                "drugSpec": "",
+                "dosage": 2,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TRASAGI2",
+                "drugName": "Rasagiline 1mg/T",
+                "drugCName": "律莎錠  廠商:晟德",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 14,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TQUETI21",
+                "drugName": "QueTiApine 二十五mg/T",
+                "drugCName": "安保思樂錠 廠商: APOTEX",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TPRAMIP",
+                "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+                "drugCName": "樂伯克錠  廠商：裕利",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMOSAPR1",
+                "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+                "drugCName": "摩舒胃清 廠商:東生華",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID&HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 84,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMADOP3",
+                "drugName": "MadoPar 200mg/50mg/TAB",
+                "drugCName": "美道普錠        廠商:羅氏",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TEXFORG",
+                "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+                "drugCName": "易安穩(2合1)    廠商:諾華",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TDESLOR",
+                "drugName": "DESLORATADINE 5MG/TAB",
+                "drugCName": "停敏錠       廠商:美時",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "QN",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TCELECO2",
+                "drugName": "CELECOXIB 200MG/CA",
+                "drugCName": "希樂葆膠囊  廠商:輝瑞",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "CA",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "CA",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TBAMBUT",
+                "drugName": "BAMBUTEROL 10mg/Tab",
+                "drugCName": "喘平樂  廠商:信東",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            }
+        ]
+2024-06-17 16:51:52.595 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:52.595 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:51:52.597 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-06-17 16:51:52.597 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 1.7073ms
+2024-06-17 16:51:52.597 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:52.603 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7246 - 400 - application/problem+json;+charset=utf-8 30.9947ms
+2024-06-17 16:51:53.627 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7246
+2024-06-17 16:51:53.627 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Content-Length = 7246
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:51:53.627 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:51:53.627 +08:00 [INF] Header: Postman-Token = 6eb42a9c-d0ae-49fa-b8ca-2c880fec116a
+2024-06-17 16:51:53.627 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 "prescriptionID": "11306176P1552",
+        "prescriptionTime": "2024-06-17 12:47:00",
+        "stockNo": "6P1",
+        "drugNo": "552",
+        "patientNo": "0000195907",
+        "patientName": "曾李不碟",
+        "visitInfo": "",
+        "nursingStation": "",
+        "bedNo": "",
+        "pharmacistCode": "M2897",
+        "pharmacistName": "許靜宜(M2897)",
+        "computerNo": "A01",
+        "prescriptionType": "",
+        "sendCommand0": "1",
+        "visitNo": "31765829",
+        "patientSex": "",
+        "patientAge": "",
+        "patientBirthday": "",
+        "departmentCode": "",
+        "departmentName": "",
+        "doctorCode": "D5998",
+        "doctorName": "葉建治",
+        "diagnosisCode": "",
+        "diagnosisName": "",
+        "drugList": [
+            {
+                "drugCode": "TSENNOS",
+                "drugName": "SennoSIDE  20mg/tab",
+                "drugCName": "便通樂 廠商:中美兄弟製藥",
+                "drugSpec": "",
+                "dosage": 2,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TRASAGI2",
+                "drugName": "Rasagiline 1mg/T",
+                "drugCName": "律莎錠  廠商:晟德",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 14,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TQUETI21",
+                "drugName": "QueTiApine 二十五mg/T",
+                "drugCName": "安保思樂錠 廠商: APOTEX",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TPRAMIP",
+                "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+                "drugCName": "樂伯克錠  廠商：裕利",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 56,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMOSAPR1",
+                "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+                "drugCName": "摩舒胃清 廠商:東生華",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "BID&HS",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 84,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TMADOP3",
+                "drugName": "MadoPar 200mg/50mg/TAB",
+                "drugCName": "美道普錠        廠商:羅氏",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TEXFORG",
+                "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+                "drugCName": "易安穩(2合1)    廠商:諾華",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TDESLOR",
+                "drugName": "DESLORATADINE 5MG/TAB",
+                "drugCName": "停敏錠       廠商:美時",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "TB",
+                "frequency": "QN",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TCELECO2",
+                "drugName": "CELECOXIB 200MG/CA",
+                "drugCName": "希樂葆膠囊  廠商:輝瑞",
+                "drugSpec": "",
+                "dosage": 1,
+                "dosageUnit": "CA",
+                "frequency": "QD",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "CA",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            },
+            {
+                "drugCode": "TBAMBUT",
+                "drugName": "BAMBUTEROL 10mg/Tab",
+                "drugCName": "喘平樂  廠商:信東",
+                "drugSpec": "",
+                "dosage": 0.5,
+                "dosageUnit": "TB",
+                "frequency": "BID",
+                "dosageTime": "PC",
+                "route": "PO",
+                "qty": 28,
+                "qtyUnit": "TB",
+                "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+                "sendCommand1": "0",
+                "sendCommand2": "",
+                "sendCommand3": ""
+            }
+        ]
+2024-06-17 16:51:53.628 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:53.628 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:51:53.629 +08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-06-17 16:51:53.629 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 1.0701ms
+2024-06-17 16:51:53.629 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:51:53.633 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 7246 - 400 - application/problem+json;+charset=utf-8 6.7542ms
+2024-06-17 16:52:23.254 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 16:52:23.254 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:52:23.254 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:52:23.254 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:52:23.254 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:52:23.255 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 16:52:23.255 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:52:23.255 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:52:23.255 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:52:23.255 +08:00 [INF] Header: Postman-Token = e82dbcbd-5bdd-4fae-82b7-6167aba54ded
+2024-06-17 16:52:23.255 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 16:52:23.255 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:52:23.255 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:52:23.749 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:52:23.749 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 494.1633ms
+2024-06-17 16:52:23.749 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:52:23.750 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476 - 200 - text/plain;+charset=utf-8 496.9218ms
+2024-06-17 16:52:29.689 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 16:52:29.690 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:52:29.690 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:52:29.690 +08:00 [INF] Header: Postman-Token = bd409572-e390-4e82-bb16-adcedcb38cb5
+2024-06-17 16:52:29.690 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 16:52:29.690 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:52:29.690 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:52:30.018 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:52:30.018 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 327.9734ms
+2024-06-17 16:52:30.018 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:52:30.019 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476 - 200 - text/plain;+charset=utf-8 329.0999ms
+2024-06-17 16:52:31.705 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 16:52:31.705 +08:00 [INF] Connection Info: ::1:58047
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:52:31.706 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:52:31.706 +08:00 [INF] Header: Postman-Token = 70fe2119-09c0-40c5-9134-f5721705b6c4
+2024-06-17 16:52:31.706 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 16:52:31.706 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:52:31.706 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:52:32.042 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:52:32.043 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 336.7196ms
+2024-06-17 16:52:32.043 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:52:32.043 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476 - 200 - text/plain;+charset=utf-8 338.0872ms
+2024-06-17 16:55:00.412 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 16:55:00.414 +08:00 [INF] Connection Info: ::1:58166
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:55:00.414 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:55:00.414 +08:00 [INF] Header: Postman-Token = 22184353-00a0-481e-97f4-541328a25f62
+2024-06-17 16:55:00.414 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 16:55:00.415 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:55:00.415 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:55:00.714 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:55:00.715 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 299.724ms
+2024-06-17 16:55:00.715 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:55:00.715 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476 - 200 - text/plain;+charset=utf-8 303.5775ms
+2024-06-17 16:57:10.255 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 16:57:10.255 +08:00 [INF] Connection Info: ::1:58234
+2024-06-17 16:57:10.256 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:57:10.257 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:57:10.257 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:57:10.257 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 16:57:10.257 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:57:10.257 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:57:10.257 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:57:10.257 +08:00 [INF] Header: Postman-Token = 64ff855f-be46-464c-bfb8-728945a97d67
+2024-06-17 16:57:10.258 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 16:57:10.258 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:57:10.258 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:57:40.348 +08:00 [INF] Starting web host
+2024-06-17 16:57:40.980 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 16:57:40.982 +08:00 [INF] Hosting environment: Development
+2024-06-17 16:57:40.983 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 16:57:40.993 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 16:57:40.997 +08:00 [INF] Connection Info: ::1:58253
+2024-06-17 16:57:40.998 +08:00 [INF] Header: Accept = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-06-17 16:57:40.998 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 16:57:40.998 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 16:57:40.998 +08:00 [INF] Header: Connection = close
+2024-06-17 16:57:40.998 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:57:40.998 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 16:57:40.999 +08:00 [INF] Header: upgrade-insecure-requests = 1
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-fetch-site = none
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-fetch-mode = navigate
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-fetch-user = ?1
+2024-06-17 16:57:40.999 +08:00 [INF] Header: sec-fetch-dest = document
+2024-06-17 16:57:40.999 +08:00 [INF] Header: priority = u=0, i
+2024-06-17 16:57:41.008 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 16:57:41.033 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 16:57:41.064 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 16:57:41.073 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:57:41.079 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 13.5362ms
+2024-06-17 16:57:41.081 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 16:57:41.084 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 92.0115ms
+2024-06-17 16:57:41.099 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 16:57:41.099 +08:00 [INF] Connection Info: ::1:58253
+2024-06-17 16:57:41.099 +08:00 [INF] Header: Accept = image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-06-17 16:57:41.099 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 16:57:41.099 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 16:57:41.099 +08:00 [INF] Header: Connection = close
+2024-06-17 16:57:41.099 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:57:41.099 +08:00 [INF] Header: Referer = https://localhost:44392/dbvm/test
+2024-06-17 16:57:41.099 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 16:57:41.099 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 16:57:41.099 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 16:57:41.099 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 16:57:41.099 +08:00 [INF] Header: sec-fetch-site = same-origin
+2024-06-17 16:57:41.099 +08:00 [INF] Header: sec-fetch-mode = no-cors
+2024-06-17 16:57:41.099 +08:00 [INF] Header: sec-fetch-dest = image
+2024-06-17 16:57:41.099 +08:00 [INF] Header: priority = u=1, i
+2024-06-17 16:57:41.099 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 16:57:41.100 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 1.8085ms
+2024-06-17 16:57:42.939 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 16:57:42.939 +08:00 [INF] Connection Info: ::1:58260
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:57:42.939 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:57:42.939 +08:00 [INF] Header: Postman-Token = 4d0dbd2e-3479-4359-b7f9-598193056b63
+2024-06-17 16:57:42.940 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 16:57:42.941 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:57:42.942 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 16:58:09.944 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 16:58:09.947 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 27004.1019ms
+2024-06-17 16:58:09.947 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 16:58:09.947 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476 - 200 - text/plain;+charset=utf-8 27007.8623ms
+2024-06-17 16:58:35.425 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44392/api/OutTakeMed/門診台01 application/json 4741
+2024-06-17 16:58:35.426 +08:00 [INF] Connection Info: ::1:58260
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Content-Length = 4741
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:58:35.426 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:58:35.426 +08:00 [INF] Header: Postman-Token = bf21b21a-e7ee-4b44-82f7-6590b9c7bb15
+2024-06-17 16:58:35.426 +08:00 [INF] Incoming Request: GET /api/OutTakeMed/%E9%96%80%E8%A8%BA%E5%8F%B001 [
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4054818,2024-06-17 12:47:00,552,0000195907,TSENNOS",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TSENNOS",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-56",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4054989,2024-06-17 12:47:00,552,0000195907,TRASAGI2",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TRASAGI2",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-14",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055052,2024-06-17 12:47:00,552,0000195907,TQUETI21",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TQUETI21",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055079,2024-06-17 12:47:00,552,0000195907,TPRAMIP",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TPRAMIP",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-56",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055102,2024-06-17 12:47:00,552,0000195907,TMOSAPR1",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TMOSAPR1",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-84",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055126,2024-06-17 12:47:00,552,0000195907,TMADOP3",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TMADOP3",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055144,2024-06-17 12:47:00,552,0000195907,TEXFORG",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TEXFORG",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055160,2024-06-17 12:47:00,552,0000195907,TDESLOR",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TDESLOR",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055177,2024-06-17 12:47:00,552,0000195907,TCELECO2",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TCELECO2",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055196,2024-06-17 12:47:00,552,0000195907,TBAMBUT",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TBAMBUT",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    }
+]
+2024-06-17 16:58:35.428 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44392/api/OutTakeMed/門診台01 application/json 4741 - 404 - - 2.4082ms
+2024-06-17 16:58:36.670 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:44392/api/OutTakeMed/門診台01 application/json 4741
+2024-06-17 16:58:36.670 +08:00 [INF] Connection Info: ::1:58260
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Content-Length = 4741
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:58:36.670 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:58:36.670 +08:00 [INF] Header: Postman-Token = a5e1efa7-5fed-46e6-8202-5c5753eb2237
+2024-06-17 16:58:36.671 +08:00 [INF] Incoming Request: GET /api/OutTakeMed/%E9%96%80%E8%A8%BA%E5%8F%B001 [
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4054818,2024-06-17 12:47:00,552,0000195907,TSENNOS",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TSENNOS",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-56",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4054989,2024-06-17 12:47:00,552,0000195907,TRASAGI2",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TRASAGI2",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-14",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055052,2024-06-17 12:47:00,552,0000195907,TQUETI21",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TQUETI21",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055079,2024-06-17 12:47:00,552,0000195907,TPRAMIP",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TPRAMIP",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-56",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055102,2024-06-17 12:47:00,552,0000195907,TMOSAPR1",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TMOSAPR1",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-84",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055126,2024-06-17 12:47:00,552,0000195907,TMADOP3",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TMADOP3",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055144,2024-06-17 12:47:00,552,0000195907,TEXFORG",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TEXFORG",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055160,2024-06-17 12:47:00,552,0000195907,TDESLOR",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TDESLOR",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055177,2024-06-17 12:47:00,552,0000195907,TCELECO2",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TCELECO2",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055196,2024-06-17 12:47:00,552,0000195907,TBAMBUT",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TBAMBUT",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    }
+]
+2024-06-17 16:58:36.674 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:44392/api/OutTakeMed/門診台01 application/json 4741 - 404 - - 5.7428ms
+2024-06-17 16:58:42.647 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/api/OutTakeMed/門診台01 application/json 4741
+2024-06-17 16:58:42.647 +08:00 [INF] Connection Info: ::1:58260
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Accept = */*
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Content-Length = 4741
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 16:58:42.647 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 16:58:42.647 +08:00 [INF] Header: Postman-Token = 9b49d1b5-731b-4de5-ab22-2f97514d757e
+2024-06-17 16:58:42.648 +08:00 [INF] Incoming Request: POST /api/OutTakeMed/%E9%96%80%E8%A8%BA%E5%8F%B001 [
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4054818,2024-06-17 12:47:00,552,0000195907,TSENNOS",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TSENNOS",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-56",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4054989,2024-06-17 12:47:00,552,0000195907,TRASAGI2",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TRASAGI2",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-14",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055052,2024-06-17 12:47:00,552,0000195907,TQUETI21",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TQUETI21",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055079,2024-06-17 12:47:00,552,0000195907,TPRAMIP",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TPRAMIP",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-56",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055102,2024-06-17 12:47:00,552,0000195907,TMOSAPR1",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TMOSAPR1",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-84",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055126,2024-06-17 12:47:00,552,0000195907,TMADOP3",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TMADOP3",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055144,2024-06-17 12:47:00,552,0000195907,TEXFORG",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TEXFORG",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055160,2024-06-17 12:47:00,552,0000195907,TDESLOR",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TDESLOR",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055177,2024-06-17 12:47:00,552,0000195907,TCELECO2",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TCELECO2",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    },
+    {
+        "PRI_KEY": "2024/06/17 16:57:10.4055196,2024-06-17 12:47:00,552,0000195907,TBAMBUT",
+        "MC_name": "A01",
+        "nursingstation": "",
+        "code": "TBAMBUT",
+        "MED_BAG_NUM": "552",
+        "OD_type": "",
+        "value": "-28",
+        "operator": "許靜宜(M2897)",
+        "patient_name": "曾李不碟",
+        "patient_code": "0000195907",
+        "prescription_time": "2024-06-17 12:47:00",
+        "OP_type": "2"
+    }
+]
+2024-06-17 16:58:42.651 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/api/OutTakeMed/門診台01 application/json 4741 - 404 - - 3.9344ms
+2024-06-17 17:00:42.665 +08:00 [INF] Starting web host
+2024-06-17 17:00:43.273 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 17:00:43.274 +08:00 [INF] Hosting environment: Development
+2024-06-17 17:00:43.275 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 17:00:43.283 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 17:00:43.286 +08:00 [INF] Connection Info: ::1:58378
+2024-06-17 17:00:43.286 +08:00 [INF] Header: Accept = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-06-17 17:00:43.287 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 17:00:43.287 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 17:00:43.287 +08:00 [INF] Header: Connection = close
+2024-06-17 17:00:43.287 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 17:00:43.287 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 17:00:43.287 +08:00 [INF] Header: upgrade-insecure-requests = 1
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-fetch-site = none
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-fetch-mode = navigate
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-fetch-user = ?1
+2024-06-17 17:00:43.287 +08:00 [INF] Header: sec-fetch-dest = document
+2024-06-17 17:00:43.287 +08:00 [INF] Header: priority = u=0, i
+2024-06-17 17:00:43.297 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 17:00:43.320 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 17:00:43.345 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 17:00:43.353 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 17:00:43.359 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 11.998ms
+2024-06-17 17:00:43.362 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 17:00:43.367 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 86.1953ms
+2024-06-17 17:00:43.382 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 17:00:43.382 +08:00 [INF] Connection Info: ::1:58378
+2024-06-17 17:00:43.382 +08:00 [INF] Header: Accept = image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-06-17 17:00:43.382 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 17:00:43.382 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 17:00:43.382 +08:00 [INF] Header: Connection = close
+2024-06-17 17:00:43.382 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 17:00:43.382 +08:00 [INF] Header: Referer = https://localhost:44392/dbvm/test
+2024-06-17 17:00:43.382 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 17:00:43.382 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 17:00:43.382 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 17:00:43.382 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 17:00:43.382 +08:00 [INF] Header: sec-fetch-site = same-origin
+2024-06-17 17:00:43.382 +08:00 [INF] Header: sec-fetch-mode = no-cors
+2024-06-17 17:00:43.382 +08:00 [INF] Header: sec-fetch-dest = image
+2024-06-17 17:00:43.382 +08:00 [INF] Header: priority = u=1, i
+2024-06-17 17:00:43.382 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 17:00:43.385 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 3.0128ms
+2024-06-17 17:00:48.933 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 17:00:48.933 +08:00 [INF] Connection Info: ::1:58387
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Accept = */*
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 17:00:48.933 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 17:00:48.933 +08:00 [INF] Header: Postman-Token = bace5815-66dc-4737-937a-2f16a51da79a
+2024-06-17 17:00:48.934 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 17:00:48.935 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 17:00:48.937 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 17:00:49.562 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 17:00:49.562 +08:00 [INF] Executed action DB2VM.BBARController.POST_OutTakeMed (DB2VM_API) in 625.6142ms
+2024-06-17 17:00:49.562 +08:00 [INF] Executed endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 17:00:49.563 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476 - 200 - text/plain;+charset=utf-8 629.6679ms
+2024-06-17 17:00:57.798 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:44392/dbvm/BBAR/OutTakeMed/A01 application/json 6476
+2024-06-17 17:00:57.798 +08:00 [INF] Connection Info: ::1:58387
+2024-06-17 17:00:57.798 +08:00 [INF] Header: Accept = */*
+2024-06-17 17:00:57.799 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br
+2024-06-17 17:00:57.799 +08:00 [INF] Header: Connection = keep-alive
+2024-06-17 17:00:57.799 +08:00 [INF] Header: Content-Length = 6476
+2024-06-17 17:00:57.799 +08:00 [INF] Header: Content-Type = application/json
+2024-06-17 17:00:57.799 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 17:00:57.799 +08:00 [INF] Header: User-Agent = PostmanRuntime/7.39.0
+2024-06-17 17:00:57.799 +08:00 [INF] Header: Postman-Token = 7b56989b-74b0-40fe-bcc1-77e59dce7da8
+2024-06-17 17:00:57.799 +08:00 [INF] Incoming Request: POST /dbvm/BBAR/OutTakeMed/A01 {
+    "prescriptionID": "11306176P1552",
+    "prescriptionTime": "2024-06-17 12:47:00",
+    "stockNo": "6P1",
+    "drugNo": "552",
+    "patientNo": "0000195907",
+    "patientName": "曾李不碟",
+    "visitInfo": "",
+    "nursingStation": "",
+    "bedNo": "",
+    "pharmacistCode": "M2897",
+    "pharmacistName": "許靜宜(M2897)",
+    "computerNo": "A01",
+    "prescriptionType": "",
+    "sendCommand0": "1",
+    "visitNo": "31765829",
+    "patientSex": "",
+    "patientAge": "",
+    "patientBirthday": "",
+    "departmentCode": "",
+    "departmentName": "",
+    "doctorCode": "D5998",
+    "doctorName": "葉建治",
+    "diagnosisCode": "",
+    "diagnosisName": "",
+    "drugList": [
+        {
+            "drugCode": "TSENNOS",
+            "drugName": "SennoSIDE  20mg/tab",
+            "drugCName": "便通樂 廠商:中美兄弟製藥",
+            "drugSpec": "",
+            "dosage": 2,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TRASAGI2",
+            "drugName": "Rasagiline 1mg/T",
+            "drugCName": "律莎錠  廠商:晟德",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 14,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TQUETI21",
+            "drugName": "QueTiApine 二十五mg/T",
+            "drugCName": "安保思樂錠 廠商: APOTEX",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TPRAMIP",
+            "drugName": "pramipexole(小劑量)0.25mg/tab (小黑字)",
+            "drugCName": "樂伯克錠  廠商：裕利",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 56,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMOSAPR1",
+            "drugName": "MOSAPRIDE (摩舒胃清)5mg",
+            "drugCName": "摩舒胃清 廠商:東生華",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "BID&HS",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 84,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TMADOP3",
+            "drugName": "MadoPar 200mg/50mg/TAB",
+            "drugCName": "美道普錠        廠商:羅氏",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TEXFORG",
+            "drugName": "Exforge2降壓 (amlodipine/valsartan) .",
+            "drugCName": "易安穩(2合1)    廠商:諾華",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TDESLOR",
+            "drugName": "DESLORATADINE 5MG/TAB",
+            "drugCName": "停敏錠       廠商:美時",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "TB",
+            "frequency": "QN",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TCELECO2",
+            "drugName": "CELECOXIB 200MG/CA",
+            "drugCName": "希樂葆膠囊  廠商:輝瑞",
+            "drugSpec": "",
+            "dosage": 1,
+            "dosageUnit": "CA",
+            "frequency": "QD",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "CA",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        },
+        {
+            "drugCode": "TBAMBUT",
+            "drugName": "BAMBUTEROL 10mg/Tab",
+            "drugCName": "喘平樂  廠商:信東",
+            "drugSpec": "",
+            "dosage": 0.5,
+            "dosageUnit": "TB",
+            "frequency": "BID",
+            "dosageTime": "PC",
+            "route": "PO",
+            "qty": 28,
+            "qtyUnit": "TB",
+            "drugQrCode": "drugno=TSENNOS&ddcsq=D%30617P10552-9",
+            "sendCommand1": "0",
+            "sendCommand2": "",
+            "sendCommand3": ""
+        }
+    ]
+}
+2024-06-17 17:00:57.799 +08:00 [INF] Executing endpoint 'DB2VM.BBARController.POST_OutTakeMed (DB2VM_API)'
+2024-06-17 17:00:57.799 +08:00 [INF] Route matched with {action = "POST_OutTakeMed", controller = "BBAR"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] POST_OutTakeMed(POST_Order_API, System.String) on controller DB2VM.BBARController (DB2VM_API).
+2024-06-17 18:18:15.827 +08:00 [INF] Starting web host
+2024-06-17 18:18:16.426 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-17 18:18:16.428 +08:00 [INF] Hosting environment: Development
+2024-06-17 18:18:16.428 +08:00 [INF] Content root path: C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master
+2024-06-17 18:18:16.436 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/dbvm/test - -
+2024-06-17 18:18:16.440 +08:00 [INF] Connection Info: ::1:61210
+2024-06-17 18:18:16.440 +08:00 [INF] Header: Accept = text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2024-06-17 18:18:16.440 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 18:18:16.440 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 18:18:16.440 +08:00 [INF] Header: Connection = close
+2024-06-17 18:18:16.440 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 18:18:16.441 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 18:18:16.441 +08:00 [INF] Header: upgrade-insecure-requests = 1
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-fetch-site = none
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-fetch-mode = navigate
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-fetch-user = ?1
+2024-06-17 18:18:16.441 +08:00 [INF] Header: sec-fetch-dest = document
+2024-06-17 18:18:16.441 +08:00 [INF] Header: priority = u=0, i
+2024-06-17 18:18:16.451 +08:00 [INF] Incoming Request: GET /dbvm/test 
+2024-06-17 18:18:16.472 +08:00 [INF] Executing endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 18:18:16.497 +08:00 [INF] Route matched with {action = "Get", controller = "Test"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.String] Get(System.String) on controller DB2VM.TestController (DB2VM_API).
+2024-06-17 18:18:16.505 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-06-17 18:18:16.511 +08:00 [INF] Executed action DB2VM.TestController.Get (DB2VM_API) in 12.0473ms
+2024-06-17 18:18:16.513 +08:00 [INF] Executed endpoint 'DB2VM.TestController.Get (DB2VM_API)'
+2024-06-17 18:18:16.516 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/dbvm/test - - - 200 - text/plain;+charset=utf-8 80.9802ms
+2024-06-17 18:18:16.531 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44392/favicon.ico - -
+2024-06-17 18:18:16.531 +08:00 [INF] Connection Info: ::1:61210
+2024-06-17 18:18:16.531 +08:00 [INF] Header: Accept = image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2024-06-17 18:18:16.531 +08:00 [INF] Header: Accept-Encoding = gzip, deflate, br, zstd
+2024-06-17 18:18:16.531 +08:00 [INF] Header: Accept-Language = zh-TW,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+2024-06-17 18:18:16.531 +08:00 [INF] Header: Connection = close
+2024-06-17 18:18:16.531 +08:00 [INF] Header: Host = localhost:44392
+2024-06-17 18:18:16.531 +08:00 [INF] Header: Referer = https://localhost:44392/dbvm/test
+2024-06-17 18:18:16.532 +08:00 [INF] Header: User-Agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0
+2024-06-17 18:18:16.532 +08:00 [INF] Header: sec-ch-ua = "Not/A)Brand";v="8", "Chromium";v="126", "Microsoft Edge";v="126"
+2024-06-17 18:18:16.532 +08:00 [INF] Header: sec-ch-ua-mobile = ?0
+2024-06-17 18:18:16.532 +08:00 [INF] Header: sec-ch-ua-platform = "Windows"
+2024-06-17 18:18:16.532 +08:00 [INF] Header: sec-fetch-site = same-origin
+2024-06-17 18:18:16.532 +08:00 [INF] Header: sec-fetch-mode = no-cors
+2024-06-17 18:18:16.532 +08:00 [INF] Header: sec-fetch-dest = image
+2024-06-17 18:18:16.532 +08:00 [INF] Header: priority = u=1, i
+2024-06-17 18:18:16.532 +08:00 [INF] Incoming Request: GET /favicon.ico 
+2024-06-17 18:18:16.533 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44392/favicon.ico - - - 404 - - 2.2663ms

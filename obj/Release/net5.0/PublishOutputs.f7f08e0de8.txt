@@ -161,14 +161,25 @@ C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubT
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\K4os.Compression.LZ4.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\K4os.Compression.LZ4.Streams.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\K4os.Hash.xxHash.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\MySql.Data.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Ubiety.Dns.Core.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\ZstdNet.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Newtonsoft.Json.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Oracle.ManagedDataAccess.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.AspNetCore.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Extensions.Hosting.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Extensions.Logging.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Formatting.Compact.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Settings.Configuration.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Sinks.Console.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Sinks.Debug.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Serilog.Sinks.File.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Data.Odbc.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.DirectoryServices.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.DirectoryServices.Protocols.dll
@@ -187,6 +198,7 @@ C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubT
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Text.Encoding.CodePages.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Text.Encodings.Web.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Text.Json.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Threading.Channels.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Windows.Extensions.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\runtimes\freebsd\lib\netcoreapp3.1\System.Data.Odbc.dll
@@ -210,6 +222,7 @@ C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubT
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\MyUI.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\System.Management.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Interop.SpeechLib.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\H_Pannel_lib.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\MyOffice.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\PopupControl.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\SunnyUI.dll
@@ -225,6 +238,7 @@ C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubT
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\ZealTechUI.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\HCGUI.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\DrawingClass.dll
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\zxing.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\NPOI.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\Microsoft.Office.Interop.Excel.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\NPOI.OOXML.dll
@@ -238,6 +252,7 @@ C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubT
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\NPOI.OpenXml4Net.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\NPOI.OpenXmlFormats.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\HIS_DB_Lib.xml
+C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\SQLUI.xml
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\DB2VM_API.Views.dll
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\DB2VM_API.Views.pdb
 C:\Users\Administrator\Downloads\CMU_BH_DB2VM_API-master\obj\Release\net5.0\PubTmp\Out\DB2VM_API.deps.json
